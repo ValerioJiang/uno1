@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">UnoDeluxe</string>
+    <string name="ColorWishDialog_title">Scegliere un colore:</string>
+    <string name="AccusePlayerDialog_question">Vuoi davvero accusare %s di barare?</string>
+
+    <string-array name="colors_array">
+        <item>Blu</item>
+        <item>Giallo</item>
+        <item>Verde</item>
+        <item>Rosso</item>
+    </string-array>
+
+
+    <string name="Button01">Start</string>
+    <string name="Button02">Start</string>
+    <string name="Button03">Start</string>
+    <string name="Button04">Start</string>
+    <string name="Button05">Start</string>
+    <string name="Button06">Start</string>
+    <string name="Button07">Start</string>
+    <string name="buttonJa">Sì</string>
+    <string name="buttonNein">No</string>
+    <string name="mainListView"></string>
+    <string name="rowTextView"></string>
+    <string name="mainListView2"></string>
+    <string name="draw_one">Pescare altra carta</string>
+    <string name="card_not_possible">Non è possibile giocare questa carta ora.</string>
+    <string name="round_won">Congratulazioni! Avete vinto questo round!</string>
+    <string name="cards_playable">Hai ancora carte giocabili.</string>
+    <string name="deck_shuffeled">La pila degli scarti è stata rimescolata nel mazzo.</string>
+    <string name="connection_failed">Impossibile connettersi alla partita.</string>
+    <string name="host_message">I am: %s</string>
+    <string name="failed_connecting">Failed to connect: %s</string>
+    <string name="help_rules">Aiuto con le regole della casa</string>
+    <string name="help_allow_stacking">Impilare +Karten:</string>
+    <string name="rules_help_stacking_text">Se un giocatore scarta una carta Pesca due, il giocatore successivo può scartare un altra carta Pesca due, il che significa che il giocatore successivo deve pescare 4 carte. La stessa regola si applica alle carte pescare quattro colori. Se un giocatore scarta una carta Pesca quattro colori, il giocatore successivo può scartare un altra carta Pesca quattro colori, il che significa che il giocatore successivo deve pescare 8 carte.</string>
+
+    <string name="rules_help_allow_custom_cards">Scuotere la carta:</string>
+    <string name="rules_help_allow_custom_cards_text">Non appena viene giocata la carta scossa, tutti gli altri giocatori devono scuotere la macchina. Il giocatore che ha scosso per ultimo riceve immediatamente 4 carte in mano. Inoltre, il giocatore che ha lanciato la carta può scegliere un colore.</string>
+    <string name="rules_help_cheating">Imbroglio:</string>
+    <string name="rules_help_cheating_text">Una volta per partita, è possibile far scomparire una carta strisciando la carta verso il basso. Questo è possibile solo se si hanno almeno 3 carte in mano. Se si bara, si può essere accusati di barare dagli altri giocatori. Se un accusa è giusta, si ricevono immediatamente 2 carte in mano. Se siete stati accusati ingiustamente, il giocatore che vi ha accusato riceve immediatamente 2 carte in mano. Se non siete stati accusati fino a quando non è di nuovo il vostro turno, non siete stati scoperti e non potete essere scoperti di nuovo.</string>
+    <string name="rules"> Una volta mescolate le carte, ogni giocatore ha in mano 7 carte. Le carte rimanenti sono disposte a faccia in giù sul tavolo e formano la SCALA DELLE CARTE. La carta più alta viene girata e posta accanto alla SCALA DI CARTE. Essa costituisce il monte degli scarti. Il giocatore alla sinistra del mazziere inizia la partita. Le carte che i giocatori scartano devono corrispondere alle carte del mazzo degli scarti per numero, colore o simbolo. Ad esempio, se la carta è un 7 rosso, il giocatore deve scartare una carta rossa o un altra carta di qualsiasi seme con il numero 7. In alternativa, il giocatore può scartare un altra carta di colore rosso. In alternativa, il giocatore può scartare una carta a scelta del colore. Se un giocatore non ha in mano una carta che può mettere sul mazzo degli scarti, deve pescare una carta dalla STOCK CARD. Se può, può piazzare immediatamente la carta pescata. Altrimenti, il giocatore successivo continua il gioco</string>
+    <string name="help">Aiuto</string>
+    <string name="allow_custom_cards">Usare la carta shake</string>
+    <string name="allow_stacking">Consentire impilamento di +Karten </string>
+    <string name="manual">Isrtuzioni</string>
+    <string name="uno_logo">Uno Logo</string>
+    <string name="start_game">Start game</string>
+    <string name="ip">IP</string>
+    <string name="join_game">Join Game</string>
+    <string name="house_rules">Regole della casa</string>
+    <string name="stack">Stack</string>
+    <string name="deck">Deck</string>
+    <string name="course_of_play">modalità di gioco</string>
+    <string name="ok">OK</string>
+    <string name="configure_houserules">Configurazione delle regole di casa</string>
+    <string name="save">Salva</string>
+    <string name="cancel">Cancella</string>
+    <string name="already_cheated">Non puoi più barare</string>
+    <string name="not_allowed_to_cheat">Avete troppe poche carte per barare (sono necessarie almeno 3 carte).</string>
+    <string name="draw_cards_first">Per poter barare mancano ancora %d carte.</string>
+    <string name="cheated">Hai fatto sparire una carta.</string>
+    <string name="not_your_turn">Non è il tuo turno.</string>
+    <string name="your_turn">È il tuo turno.</string>
+    <string name="allow_cheating">Consenti imbroglio</string>
+    <string name="not_allowed_to_accuse">Potete accusare qualcuno di barare solo quando è il vostro turno.</string>
+    <string name="correctly_accused_all">%1$s ha sorpreso %2$s a barare. %3$s riceve immediatamente 2 sanzioni.</string>
+    <string name="correctly_accused_accuser">%s ha effettivamente barato e quindi ha ricevuto immediatamente 2 cartellini di penalità.</string>
+    <string name="correctly_accused_accused">%s ti ha sorpreso a barare. Ricevi 2 carte.</string>
+    <string name="wrongly_accused_all">%1$s ha accusato %2$s di aver barato. Tuttavia, %3$s non ha barato, quindi %4$s riceve immediatamente 2 carte.</string>
+    <string name="wrongly_accused_accuser">%s non ha barato. Riceverete 2 carte.</string>
+    <string name="wrongly_accused_accused">%s ti ha accusato di aver barato, ma ha sbagliato, riceve 2 carte.</string>
+    <string name="no_cheating">Non è consentito barare.</string>
+    <string name="shuffle">La pila è stata rimescolata nel mazzo.</string>
+    <string name="say_something">Dire UNO!</string>
+    <string name="speech_not_supported">Your device does not support recording!</string>
+</resources>
